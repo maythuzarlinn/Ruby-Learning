@@ -2,7 +2,7 @@ animal_array = Array.new(10)
 puts "Please let us know 10 animals' type you love to keep at home. "
 
 10.times do |i|
-  puts "Please enter the name of animal: "
+  puts "#{i+1}.Please enter the name of animal: "
   animal_name = gets.chomp()
   animal_array[i] = animal_name
 end
