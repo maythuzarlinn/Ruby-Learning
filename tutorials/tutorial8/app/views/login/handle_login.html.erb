@@ -1,0 +1,7 @@
+<div class="login-info">
+  <h2>Welcome to MTZL portfolio Page.</h2>
+  <% if @login %>
+    <p>Log in Succeeded.</p>
+    <button><%= link_to "Log out", handle_logout_path %></button>
+  <% end %>
+</div>
